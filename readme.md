@@ -17,6 +17,7 @@
   - [Checklist de desarrollo](#checklist-de-desarrollo)
   - [Tecnologías utilizadas](#tecnologías-utilizadas)
   - [Instalación y ejecución](#instalación-y-ejecución)
+  - [Arquitectura](#arquitectura)
 
 
 ## Descripción
@@ -67,3 +68,16 @@ TaskFlow es una aplicación intuitiva diseñada para facilitar la administració
 1. Clonar el repositorio
 2. Entrar a la carpeta del proyecto
 3. Abrir el proyecto en Visual Studio Code
+
+## Arquitectura
+La aplicación está organizada en diferentes componentes que permiten gestionar la interacción con el usuario, la autenticación, el acceso a datos y el registro de actividades.
+
+```mermaid
+flowchart LR
+    U[Usuario] --> F[Frontend]
+    F --> API[API]
+    API --> AUTH[Autenticación]
+    API --> DAO[DAO]
+    DAO --> DB[(MySQL)]
+    API --> LOG[Registro de actividad]
+```
