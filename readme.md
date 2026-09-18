@@ -7,6 +7,11 @@
 - [TaskFlow](#taskflow)
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Descripción](#descripción)
+  - [Capturas de pantalla](#capturas-de-pantalla)
+    - [Pantalla principal](#pantalla-principal)
+    - [Inicio de sesión / Registro](#inicio-de-sesión--registro)
+    - [Gestión de tareas (Tablero principal)](#gestión-de-tareas-tablero-principal)
+    - [Reportes de avance](#reportes-de-avance)
   - [Funcionalidades principales](#funcionalidades-principales)
   - [Requisitos del sistema](#requisitos-del-sistema)
   - [Checklist de desarrollo](#checklist-de-desarrollo)
@@ -16,6 +21,19 @@
 
 ## Descripción
 TaskFlow es una aplicación intuitiva diseñada para facilitar la administración, seguimiento y asignación de tareas dentro de proyectos colaborativos.
+
+## Capturas de pantalla
+### Pantalla principal
+![Pantalla principal](docs/img/inicio.jpeg)
+
+### Inicio de sesión / Registro
+![Inicio de sesión](docs/img/login.jpeg)
+
+### Gestión de tareas (Tablero principal)
+![Gestión de tareas](docs/img/tareas.jpeg)
+
+### Reportes de avance
+![Reportes de avance](docs/img/reportes.jpeg)
 
 ## Funcionalidades principales
 - Crear, editar y eliminar tareas.
