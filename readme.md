@@ -1,15 +1,16 @@
 # TaskFlow
-Sistema de gestión de tareas para equipos de desarrollo
+![GitHub last commit](https://img.shields.io/github/last-commit/usuario/taskflow)
+![GitHub issues](https://img.shields.io/github/issues/usuario/taskflow)
+![GitHub stars](https://img.shields.io/github/stars/usuario/taskflow)
 
 ## Tabla de contenidos
 - [TaskFlow](#taskflow)
   - [Tabla de contenidos](#tabla-de-contenidos)
   - [Descripción](#descripción)
   - [Funcionalidades principales](#funcionalidades-principales)
-  - [Tecnologías utilizadas](#tecnologías-utilizadas)
   - [Requisitos del sistema](#requisitos-del-sistema)
   - [Checklist de desarrollo](#checklist-de-desarrollo)
-  - [Tecnologías utilizadas](#tecnologías-utilizadas-1)
+  - [Tecnologías utilizadas](#tecnologías-utilizadas)
   - [Instalación y ejecución](#instalación-y-ejecución)
 
 
@@ -21,12 +22,6 @@ TaskFlow es una aplicación intuitiva diseñada para facilitar la administració
 - Asignación de responsables por tarea.
 - Clasificación de tareas por prioridad y estado.
 - Generación de reportes de avance.
-
-## Tecnologías utilizadas
-- Java 17
-- Spring Boot
-- MySQL
-- HTML5 / CSS3
 
 ## Requisitos del sistema
 - Java Development Kit (JDK) 17 o superior.
